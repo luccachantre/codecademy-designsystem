@@ -1,0 +1,89 @@
+body {
+    font-family: "Alan Sans", sans-serif;
+}
+
+.colors {
+    border: 5px solid grey;
+    padding: 10px;
+}
+
+#colortitle {
+    display: block;
+}
+
+.colorboxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colorbox {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+}
+
+#color1 {
+    background-color: #fcd68d;
+}
+
+#color2 {
+    background-color: #02cc74;
+}
+
+#color3 {
+    background-color: #1c5fb0;
+    color: white;
+}
+
+#color4 {
+    background-color: #ac7bb0;
+}
+
+.fonts {
+    border: 5px solid grey;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.fonttitle {
+    text-decoration: underline;
+}
+
+.fontbox>p {
+    font-size: 16px;
+}
+
+#nunito {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#source {
+    font-family: "Source Serif 4", serif;
+}
+
+.text {
+    border: 5px solid grey;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Alan Sans", sans-serif;
+}
+
+#h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#p,
+li {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+}
